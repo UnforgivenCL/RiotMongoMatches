@@ -9,6 +9,14 @@ parametros ingresados.
 -Tener Instalado riotwatcher (Si es posible clonarlo e instalarlo) https://github.com/pseudonym117/Riot-Watcher
 -Tener un servidor MongoDB
 
+#Importante:
+Como algunas partidas se pueden repetir, la idea es no almacenar dos veces lo mismo en la base de datos, entonces para evitar eso recomiendo ejecutar el siguiente script para volver el match único en la DB
+
+```python
+db.matches_stored.createIndex( { matchId: 1 }, { unique: true } )
+```
+
+
 #Uso:
 Una vez descargado debes crear un archivo api_key.txt o utilizar el que viene, ahi deberás ingresar tu API KEY proporcionada por
 Riot Games.
