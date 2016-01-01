@@ -1,7 +1,6 @@
 # Script por UnforgivenCL (Guillermo Lobos Parada)
 # memolob@gmail.com
 
-
 import sys
 import json
 import os.path
@@ -9,11 +8,6 @@ import time
 import argparse
 from riotwatcher import RiotWatcher
 from pymongo import MongoClient
-
-
-
-
-
 
 def readApiKey():
 	try:
@@ -117,7 +111,6 @@ def storeInMongo(match, ipmongo):
 		matchs.insert_one(match).inserted_id
 	except Exception as e:
 		print e
-
 
 
 def main():
