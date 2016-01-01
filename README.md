@@ -5,8 +5,6 @@ parametros ingresados.
 
 
 #Requisitos:
-
-
 -Tener instalado PyMongo
 -Tener Instalado riotwatcher (Si es posible clonarlo e instalarlo) https://github.com/pseudonym117/Riot-Watcher
 -Tener un servidor MongoDB
