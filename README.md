@@ -1,25 +1,22 @@
 # RiotMongoMatches
-==========
 
 Script creado para extraer las partidas de un jugador o de la challenger tier de un servidor, cada partida sera almacenada segun los
 parametros ingresados.
 
 
 #Requisitos:
-==========
+
 
 Tener instalado PyMongo
 Tener Instalado riotwatcher (Si es posible clonarlo e instalarlo) https://github.com/pseudonym117/Riot-Watcher
 Tener un servidor MongoDB
 
 #Uso:
-==========
 Una vez descargado debes crear un archivo api_key.txt o utilizar el que viene, ahi deberás ingresar tu API KEY proporcionada por
 Riot Games.
 
 
 #Ejemplos
-==========
 
 Si deseo obtener las partidas de todos los Challenger del servidor LatinoAmérica Sur y almacenarlas utilizaria de esta manera:
 
@@ -39,14 +36,9 @@ Donde -i indica la IP del servidor MongoDB
 
 
 #NOTA:
-==========
 
 Al ejecutar el script, se crea una DB llamada "matchs" y una colección llamada "matches_stored" , si deseas cambiarle el nombre deberas modificar el script a tu gusto.
 
 
 El script esta en una fase inicial, por lo que es probable que al alterar algun parametro este no responda de la forma esperada, el script se mejorara a medida del tiempo y de mi disponibilidad.
-
-
-
-
 
