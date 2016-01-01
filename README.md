@@ -7,9 +7,9 @@ parametros ingresados.
 #Requisitos:
 
 
-Tener instalado PyMongo
-Tener Instalado riotwatcher (Si es posible clonarlo e instalarlo) https://github.com/pseudonym117/Riot-Watcher
-Tener un servidor MongoDB
+-Tener instalado PyMongo
+-Tener Instalado riotwatcher (Si es posible clonarlo e instalarlo) https://github.com/pseudonym117/Riot-Watcher
+-Tener un servidor MongoDB
 
 #Uso:
 Una vez descargado debes crear un archivo api_key.txt o utilizar el que viene, ahi deberás ingresar tu API KEY proporcionada por
