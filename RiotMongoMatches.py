@@ -110,7 +110,7 @@ def storeInMongo(match, ipmongo):
 		matchs = db.matches_stored
 		matchs.insert_one(match).inserted_id
 	except Exception as e:
-		print e
+		print "Partida ya existente, descartamos"
 
 
 def main():
